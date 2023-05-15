@@ -6,8 +6,8 @@ public class Main {
         new TelegramObserver(subject);
 
         System.out.println("First state change: Iphone 14");
-        subject.setState("Iphone 14");
+        subject.setState("Iphone 14 is available");
         System.out.println("Second state change: Ipad");
-        subject.setState("Ipad");
+        subject.setState("Iphone 14 is available");
     }
 }
